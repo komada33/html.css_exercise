@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 400px;
+}
+
+.top {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+h2 {
+  color: gray;
+  padding: 20px 0 0 20px;
+}
+
+main {
+  width: 840px;
+  margin: 50px auto;
+}
+
+.content {
+  width: 840px;
+  padding: 30px 0 30px 0;
+  border-bottom: gainsboro solid 2px;
+  justify-content: center;
+  display: flexbox;
+}
+
+p {
+  color: gray;
+}
